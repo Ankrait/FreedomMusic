@@ -134,7 +134,7 @@ a:hover {
 }
 
 .info {
-	background-image: url("../img/laptop.png"), url("../img/blackwave.png");
+	background-image: url("../img/Laptop.png"), url("../img/blackwave.png");
 	background-position: 117% 165%, 0% 0%;
 	background-size: auto auto, auto auto;
 	background-repeat: no-repeat, no-repeat;
