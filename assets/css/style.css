@@ -1,0 +1,319 @@
+@font-face {
+	font-family: "CorporateS";
+	src: url("../fonts/CorporateS-Bold.eot");
+	src: local("☺"), url("../fonts/CorporateS-Bold.woff") format("woff"),
+		url("../fonts/CorporateS-Bold.ttf") format("truetype"), url("../fonts/CorporateS-Bold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../img/bg.png") center no-repeat;
+	background-position: 25% 0%;
+	background-size: auto auto;
+	background-color: black;
+}
+
+.selected a {
+	color: #f22c01;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #aeb312;
+}
+
+.menu,
+.welcome {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	height: 140px;
+	min-width: 1000px;
+}
+
+.menu ul {
+	line-height: 1.5em;
+	height: 140px;
+	margin-top: 70px;
+	margin-left: 160px;
+}
+
+.menu li {
+	font: normal 73% "Lucida Sans Unicode", sans-serif;
+	float: left;
+	padding: 0 0 0 65px;
+	list-style: none;
+}
+
+.welcome {
+	margin-top: 72px;
+	height: 500px;
+}
+
+.Lar {
+	margin-right: 12px;
+}
+
+.arrows {
+	padding-left: 817px;
+}
+
+.text_prew {
+	margin-top: 20px;
+}
+
+.text_prew h2 {
+	font: 100 260% "CANDARA", sans-serif;
+	color: white;
+	word-spacing: 10px;
+	margin-left: 338px;
+}
+
+.text_prew h1 {
+	font: 700 600% "CALIBRI", sans-serif;
+	margin-left: 213px;
+	height: 100px;
+	color: white;
+	margin-top: -20px;
+}
+
+.text_prew span {
+	color: #f22c01;
+	height: 80px;
+}
+
+.text_prew p {
+	width: 708px;
+	color: white;
+	font: 100 100% "CANDARA", sans-serif;
+	letter-spacing: 0.073em;
+	text-align: justify;
+	margin-left: 196px;
+	margin-top: 12px;
+}
+
+.button1,
+.button2 {
+	height: 47px;
+	width: 162px;
+	float: left;
+	margin-left: 550px;
+	margin-top: 35px;
+}
+
+.button1 p,
+.button2 p {
+	text-align: center;
+	color: white;
+	padding-top: 13.5px;
+	font: 900 88% "CALIBRI", sans-serif;
+	letter-spacing: 0.1em;
+}
+
+.button1 {
+	border: 2px solid white;
+}
+
+.button2 {
+	background-color: #f22c01;
+	margin-left: 21px;
+	border: 2px solid #f22c01;
+}
+
+.info {
+	background-image: url("../img/laptop.png"), url("../img/blackwave.png");
+	background-position: 117% 165%, 0% 0%;
+	background-size: auto auto, auto auto;
+	background-repeat: no-repeat, no-repeat;
+	margin-top: -338px;
+	height: 1400px;
+}
+
+.about_us {
+	height: 122px;
+	width: 122px;
+	background-color: #f22c01;
+	position: relative;
+	top: 612px;
+	left: 607px;
+}
+
+.about_us p,
+.about_us h2 {
+	color: white;
+	text-align: center;
+}
+
+.about_us h2 {
+	padding-top: 15px;
+	font: 100 170% "CorporateS", sans-serif;
+	line-height: 25px;
+	letter-spacing: 0.01em;
+}
+
+.about_us p {
+	font: 100 60% "arial", sans-serif;
+}
+
+.about_us_info {
+	width: 636px;
+	height: 200px;
+	position: relative;
+	top: 513px;
+	left: 94px;
+	margin-top: 100px;
+}
+
+.about_us_info p {
+	color: white;
+	letter-spacing: 0.04em;
+	text-align: justify;
+	font: 100 92% "CANDARA", sans-serif;
+}
+
+.readme {
+	height: 122px;
+	width: 122px;
+	background-color: #f22c01;
+	position: relative;
+	top: 541px;
+	left: 607px;
+}
+
+.readme p,
+.readme h2 {
+	color: white;
+	text-align: center;
+}
+
+.readme h2 {
+	padding-top: 15px;
+	font: 100 170% "CorporateS", sans-serif;
+	line-height: 25px;
+	letter-spacing: 0.01em;
+}
+
+.readme p {
+	font: 100 60% "arial", sans-serif;
+}
+
+.readme_info {
+	width: 636px;
+	height: 200px;
+	position: relative;
+	top: 461px;
+	left: 94px;
+	margin-top: 100px;
+}
+
+.readme_info p {
+	color: white;
+	letter-spacing: 0.04em;
+	text-align: justify;
+	font: 100 92% "CANDARA", sans-serif;
+}
+
+.stat {
+	height: 316px;
+	background-color: #f22c01;
+	margin-top: -50px;
+}
+
+.stat {
+	color: white;
+}
+
+.stat1,
+.stat2,
+.stat3,
+.stat4 {
+	width: 260px;
+	float: left;
+}
+
+.stat1 {
+	margin-left: 272px;
+}
+
+.stat h1,
+.stat h2 {
+	text-align: center;
+}
+
+.stat h1 {
+	padding-top: 103px;
+	font: 100 400% "arial", sans-serif;
+}
+
+.stat h2 {
+	font: 100 109% "CANDARA", sans-serif;
+	padding-top: 7px;
+}
+
+.stat2 {
+	height: 330px;
+	background-color: #c51f00;
+	position: relative;
+	bottom: 14px;
+}
+
+.stat2 h1 {
+	padding-top: 117px;
+}
+
+.guitar {
+	height: 691px;
+	background-image: url("../img/guitar.png");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-position: 130% 0;
+	background-color: #151515;
+}
+
+.text_guit {
+	position: relative;
+	width: 676px;
+	height: 167px;
+	top: 246px;
+	left: 175px;
+	color: white;
+	font: 100 92% "CANDARA", sans-serif;
+}
+
+.text_guit h1 {
+	text-align: right;
+	font: 900 150% "CANDARA", sans-serif;
+	line-height: 100px;
+}
+
+.text_guit p {
+	text-align: justify;
+}
+
+.footer {
+	height: 190px;
+	font: normal 73% "Lucida Sans Unicode", sans-serif;
+	word-spacing: 65px;
+}
+
+.footer p {
+	padding: 135px 0 0 626px;
+}
+
+a.selected {
+	color: #f22c01;
+	text-decoration: overline;
+}
